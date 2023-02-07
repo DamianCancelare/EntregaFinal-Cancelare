@@ -1,0 +1,28 @@
+.form-register {
+    width: 400px;
+    background: hsl(9, 82%, 78%);
+    padding: 30px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+    :hover {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.controls {
+    width: 100%;
+    background-color: hsl(8, 52%, 84%);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #0ccfe9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}

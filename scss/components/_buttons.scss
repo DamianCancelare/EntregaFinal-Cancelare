@@ -1,0 +1,52 @@
+@mixin bordes {
+    border-radius: 50%;
+}
+
+.btn_wsp {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 40px;
+    right: 35px;
+    background: #10c74a;
+    @include bordes;
+
+    &:hover {
+        background: #ffffff;
+        transform: scale(1.2);
+    }
+}
+
+.buttons {
+    background-color: rgb(36, 35, 35);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    a {
+        text-decoration: none;
+        font-size: 28px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background: hsl(202, 83%, 61%);
+        color: #f1f1f1;
+        @include bordes;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+        transition: all .4s ease-in-out;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.form-register .button {
+    width: 100%;
+    background-color: #7296e4;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}

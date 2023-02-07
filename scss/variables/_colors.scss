@@ -1,0 +1,47 @@
+$title: #ef8354;
+$primary: hsl(8, 52%, 84%);
+$secondary: rgb(36, 35, 35);
+$alternative: white;
+$alternative2: red;
+$alternative3: black;
+$male: rgba(127, 246, 255, 0.774);
+$female: hsl(10, 100%, 84%);
+
+$paleta_de_colores: (
+    primario: $primary,
+    secundario: $secondary,
+    alternativo1: $alternative,
+    alternativo2: $alternative2,
+    alternativo3: $alternative3,
+    titulo: $title,
+    masculino: $male,
+    femenino: $female
+);
+
+.male {
+    background-color: map-get($paleta_de_colores, masculino);
+}
+
+.female {
+    background-color: map-get($paleta_de_colores, femenino);
+}
+
+.titulo_alt {
+    color: map-get($paleta_de_colores, alternativo1);
+}
+
+.letter_alt {
+    color: map-get($paleta_de_colores, alternativo1);
+}
+
+.letter_red {
+    color: map-get($paleta_de_colores, alternativo2);
+}
+
+.letter_back {
+    color: map-get($paleta_de_colores, alternativo3);
+}
+
+.background_eme {
+    background-color: map-get($paleta_de_colores, primario);
+}

@@ -1,0 +1,348 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+.btn_wsp {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 40px;
+  right: 35px;
+  background: #10c74a;
+  border-radius: 50%;
+}
+.btn_wsp:hover {
+  background: #ffffff;
+  transform: scale(1.2);
+}
+
+.buttons {
+  background-color: rgb(36, 35, 35);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: hsl(202deg, 83%, 61%);
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease-in-out;
+}
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+.form-register .button {
+  width: 100%;
+  background-color: #7296e4;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.background_exp {
+  background-image: url(https://cdn.pixabay.com/photo/2017/05/13/18/44/jack-russell-2310391_960_720.jpg);
+}
+
+.background_form {
+  padding-bottom: 2px;
+  background-image: url(https://cdn.pixabay.com/photo/2016/07/22/03/14/kittens-1534083_960_720.jpg);
+}
+
+.background_portada {
+  padding: 5%;
+  background-image: url(https://www.webconsultas.com/sites/default/files/styles/wc_adaptive_noticia__medium__webp/public/noticias/perro_gato_abandonado_jpg.webp);
+}
+
+.background_adop {
+  padding: 20vh;
+  background-image: url(https://media.perezlara.com/2021/02/Adopcio%CC%81n-de-mascotas-1.png);
+}
+
+.background_acer {
+  padding: 400px;
+  background-image: url(https://petindustry.co/wp-content/uploads/2022/01/ASMEVET-personajes-petind-scaled.jpg);
+}
+
+.background_fdo {
+  padding-bottom: 100px;
+  background-image: url(https://www.igaleno.com/wp-content/uploads/2021/07/Diferencias-entre-centro-medico-y-clinica.jpg);
+}
+
+.background_vet1 {
+  padding: 20vh;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/57a2aeb1ff7c509ef76566c9/1570403104480-E7SIAPLC0POJ2OSLACZD/puppy.jpg?format=1000w);
+}
+
+.background_cuid {
+  padding: 20vh;
+  background-image: url(https://adiestramientogadi.com/wp-content/uploads/2022/09/parque-de-perros-alicante.jpg);
+}
+
+.background_wallpaper {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.form-register {
+  width: 400px;
+  background: hsl(9deg, 82%, 78%);
+  padding: 30px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  border-radius: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-register :hover {
+  color: white;
+  text-decoration: none;
+}
+
+.controls {
+  width: 100%;
+  background-color: hsl(8deg, 52%, 84%);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #0ccfe9;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+
+.galeria_adop img {
+  width: 100%;
+  border-radius: 50px;
+}
+
+.galeria_asist img {
+  width: 70%;
+}
+
+.logo_barra {
+  display: inline-block;
+  height: 80px;
+}
+
+.img_logo {
+  margin-top: 100px;
+  height: 400px;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 25px #222;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 50%;
+}
+
+.inst img {
+  width: 60%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img_radius img {
+  border-radius: 50px;
+}
+
+h2 {
+  display: inline-block;
+  position: relative;
+  color: #ef8354;
+  font-family: "Pacifico";
+  font-size: 3rem;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+h2::after,
+h2::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background-color: #ef8354;
+  top: 0.9em;
+}
+
+h2::before {
+  left: -50px;
+}
+
+h2::after {
+  right: -50px;
+}
+
+.p_adop p {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.p1 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.p3 {
+  margin-left: 60px;
+  margin-right: 60px;
+  text-align: center;
+  padding: 0px;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.p_cuid p {
+  width: 22%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 1199px) {
+  .p1 {
+    font-size: large;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .galeria_asist img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 869px) {
+  .img_logo {
+    margin-top: 100px;
+    height: 250px;
+  }
+}
+.galeria_adop img {
+  margin-bottom: 50px;
+}
+
+.div_salto100 {
+  margin: 100px;
+}
+
+.div_salto50 {
+  margin: 50px;
+}
+
+.div_bot100 {
+  margin-bottom: 100px;
+}
+
+.div_top50 {
+  margin-top: 50px;
+}
+
+.padding_top50 {
+  padding-top: 50px;
+}
+
+.padding_bot50 {
+  padding-bottom: 50px;
+}
+
+.padding_bot100 {
+  padding-bottom: 100px;
+}
+
+.sin_padding {
+  padding: 0px;
+  margin: 0px;
+}
+
+.ancho {
+  width: 100%;
+}
+
+.b {
+  font-weight: bold;
+}
+
+.blur {
+  box-shadow: 0 0 25px #222;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.p_cuid {
+  margin-left: 40px;
+  margin-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.inst {
+  padding: 50px;
+  align-items: center;
+  background-color: rgba(214, 140, 127, 0.5803921569);
+}
+
+.male {
+  background-color: rgba(127, 246, 255, 0.774);
+}
+
+.female {
+  background-color: hsl(10deg, 100%, 84%);
+}
+
+.titulo_alt {
+  color: white;
+}
+
+.letter_alt {
+  color: white;
+}
+
+.letter_red {
+  color: red;
+}
+
+.letter_back {
+  color: black;
+}
+
+.background_eme {
+  background-color: hsl(8deg, 52%, 84%);
+}
+
+footer {
+  background-color: rgb(36, 35, 35);
+  color: white;
+}/*# sourceMappingURL=main.css.map */
