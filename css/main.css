@@ -349,6 +349,10 @@ footer {
   h2::after {
     right: -30px;
   }
+  .p3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 @media screen and (max-width: 1199px) {
   .p1 {
