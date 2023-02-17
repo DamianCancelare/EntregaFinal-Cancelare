@@ -70,7 +70,7 @@ body {
 }
 
 .background_adop {
-  padding: 20vh;
+  padding: 18vh;
   background-image: url(https://media.perezlara.com/2021/02/Adopcio%CC%81n-de-mascotas-1.png);
 }
 
@@ -85,12 +85,12 @@ body {
 }
 
 .background_vet1 {
-  padding: 20vh;
+  padding: 18vh;
   background-image: url(https://images.squarespace-cdn.com/content/v1/57a2aeb1ff7c509ef76566c9/1570403104480-E7SIAPLC0POJ2OSLACZD/puppy.jpg?format=1000w);
 }
 
 .background_cuid {
-  padding: 20vh;
+  padding: 18vh;
   background-image: url(https://adiestramientogadi.com/wp-content/uploads/2022/09/parque-de-perros-alicante.jpg);
 }
 
@@ -233,26 +233,6 @@ h2::after {
   line-height: 40px;
 }
 
-@media screen and (max-width: 1199px) {
-  .p1 {
-    font-size: large;
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-  .galeria_asist img {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 869px) {
-  .img_logo {
-    margin-top: 100px;
-    height: 250px;
-  }
-}
-.galeria_adop img {
-  margin-bottom: 50px;
-}
-
 .div_salto100 {
   margin: 100px;
 }
@@ -345,4 +325,38 @@ h2::after {
 footer {
   background-color: rgb(36, 35, 35);
   color: white;
+}
+
+@media screen and (max-width: 869px) {
+  .img_logo {
+    margin-top: 100px;
+    height: 250px;
+  }
+  .galeria_adop img {
+    margin-bottom: 50px;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h2::after,
+  h2::before {
+    content: "";
+    width: 30px;
+  }
+  h2::before {
+    left: -30px;
+  }
+  h2::after {
+    right: -30px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .p1 {
+    font-size: large;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .galeria_asist img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
